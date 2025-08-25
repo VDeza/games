@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+body header h1 {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-align: center;
+}
+
+#atas {
+    display: flex;
+    background-color: rgb(23, 6, 131);
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    color: white;
+}
+#chose {
+    display: none;
+}
+
+#atas button {
+    margin: 10px 0 0 0;
+    width: 65px;
+    font-family: monospace;
+    border-radius: 5px;
+    border: solid rgb(255, 255, 255);
+}
+
+#avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-position: center;
+    padding: 10px;
+
+}
+
+
+#output {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(23, 6, 131);
+    border-radius: 0 0 200px 200px;
+    border: solid white;
+    color: white;
+}
+#output button {
+    padding: 5px;
+    margin: 10px 0 0 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border: double white;
+    border-radius: 5px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+#bpemain {
+    width: 150px;
+    border-radius: 35px;
+}
+
+#bbot {
+    width: 150px;
+    border-radius: 35px;
+}
+
+#vs {
+    display: flex;
+    justify-content: space-around;
+    font-family:'Courier New', Courier, monospace;
+}
+#ppoint {
+    font-family:fantasy;
+    background: linear-gradient(to right,white, white,purple, red, yellow, red,purple, white, white);
+color: white;
+text-shadow: 2px 2px 2px black;
+}
+#bpoint {
+font-family: fantasy;
+background: linear-gradient(to right, white, white, purple, red, yellow, red, purple, white, white);
+color: white;
+text-shadow: 2px 2px 2px black;
+}
+#plr {
+    text-align: center;
+
+}
+
+#bt {
+    text-align: center
+}
+
+#Hasil {
+    text-align: center;
+}
+footer {
+    background-color: black;
+}
