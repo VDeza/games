@@ -14,7 +14,7 @@ function avatar1() {
     } else if (avatar == "Burung") {
         avatarpp = "/games/images/birb.jpg"
     } else {
-        avatarpp = "/games/images/rocks.png"
+        avatarpp = "/games/images/question.png"
     }
     document.getElementById("avatar").src = avatarpp;
 }
@@ -121,6 +121,7 @@ function rPS() {
     }
     
 }
+
 
 
 
