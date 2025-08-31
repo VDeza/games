@@ -8,13 +8,13 @@ function avatar1() {
 
     let avatarpp;
     if (avatar == "Kucing") {
-        avatarpp = "/Games/images/kucheng.jpg";
+        avatarpp = "/images/kucheng.jpg";
     } else if (avatar == "Anjing") {
-        avatarpp = "/Games/images/puppy.jpg";
+        avatarpp = "/images/puppy.jpg";
     } else if (avatar == "Burung") {
-        avatarpp = "/Games/images/birb.jpg"
+        avatarpp = "/images/birb.jpg"
     } else {
-        avatarpp = "/codingcamp-14-jul-25-VDeza/Images/pancasila.jpg"
+        avatarpp = "/images/question.png"
     }
     document.getElementById("avatar").src = avatarpp;
 }
@@ -121,3 +121,4 @@ function rPS() {
     }
     
 }
+
