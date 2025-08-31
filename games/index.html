@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="/games/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ROCK PAPER SCISSOR</h1>
+    </header>
+    <main>
+        <section id="atas">
+            <img id="avatar" onclick="chose()" src="/codingcamp-14-jul-25-VDeza/Images/pancasila.jpg">
+            <div id="chose">
+                <form>
+                    <label>Pilih Avatar</label>
+                    <br>
+                    <select type="text" onchange="avatar1()" id="pilihAvatar" required>
+                        <option value=""></option>
+                        <option value="Kucing">Kucing</option>
+                        <option value="Anjing">Anjing</option>
+                        <option value="Burung">Burung</option>
+                    </select>
+                </form>
+                <button onclick="avatar2()">OK</button>
+            </div>
+        </section>
+
+        <section id="tengah">
+            <div id="output">
+                <form>
+                    <label>Pilih Bentuk</label>
+                    <br>
+                    <select type="option" onchange="vs()" id="bentuk">
+                        <option value=""></option>
+                        <option value="Gunting">Gunting</option>
+                        <option value="Batu">Batu</option>
+                        <option value="Kertas">Kertas</option>
+                    </select>
+                </form>
+
+                <button id="RPS" onclick="rPS()">ROCK! PAPER! SCISSOR!</button>
+            </div>
+            <section id="vs">
+                <div id="plr">
+                    <p id="ppoint">0</p>
+                    <h3>Pemain</h3>
+                    <p id="pemain">???</p>
+                    <img id="bpemain" src="/games/images/question.png">
+                </div>
+                <h1>VS</h1>
+                <div id="bt">
+
+                    <p id="bpoint">0</p>
+                    <h3>bot</h3>
+                    <p id="bot">??? </p>
+                    <img id="bbot" src="/games/images/question.png">
+                </div>
+
+            </section>
+            <p id="Hasil"></p>
+        </section>
+
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="/games/js/script.js"></script>
+</body>
+
+</html>
