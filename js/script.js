@@ -14,7 +14,7 @@ function avatar1() {
     } else if (avatar == "Burung") {
         avatarpp = "images/birb.jpg"
     } else {
-        avatarpp = "images/question.jpg"
+        avatarpp = "images/question.png"
     }
     document.getElementById("avatar").src = avatarpp;
 }
@@ -121,4 +121,5 @@ function rPS() {
     }
     
 }
+
 
